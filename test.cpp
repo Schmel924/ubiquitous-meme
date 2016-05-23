@@ -4,7 +4,7 @@
 //#include <ncurses.h>
 int main()
 {
-std::cout <<"Is this shit working?"<< std::endl;
+std::cout <<"Is this sheeeit working?"<< std::endl;
 getch();
 return 0;
 }
