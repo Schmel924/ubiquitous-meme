@@ -1,4 +1,3 @@
-
 /*  checkthis.c  */
 #include "includes.h"
 #include "output.h"
@@ -21,7 +20,7 @@ public:
 	}
 	std::string get_name ()
 	{
-		return name;
+		return  name;
 	}
 
 
@@ -33,19 +32,20 @@ public:
 int main()
 
 {
+initscr();
 
-//initscr();
-
-//wclear(stdscr);
-Text_Output ("Hello");
+wclear(stdscr);
+PDC_text_output ("Hello");
 Hero George;
-Text_Output (George.get_name());
+PDC_text_output (George.get_name());
 //cout <<George.get_name() << endl;
 //printf("hello world\n");
+printw ("\ntell");
+getch ();
+endwin();
 
 
-
-system("pause");
+//system("pause");
 
 return 0;
 
